@@ -1,0 +1,40 @@
+{
+    "news": [
+        {
+            "id": 1,
+            "title": "eFootball 2024",
+            "description": "The latest installment in the eFootball series brings new features and improvements with enhanced graphics and realistic gameplay.",
+            "image": "https://images.hdqwalls.com/download/efootball-2024-1t-1920x1080.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Call of Duty: Modern Warfare Remastered",
+            "description": "Experience the iconic Modern Warfare campaign remastered in stunning 4K with improved textures and visual effects.",
+            "image": "https://images.hdqwalls.com/download/call-of-duty-modern-warfare-2024-8y-1920x1080.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Forza Horizon 4",
+            "description": "Race through beautiful dynamic seasons in Britain with hundreds of cars in this stunning open-world racing game.",
+            "image": "https://images.hdqwalls.com/download/forza-horizon-4-pagani-zonda-4k-hc-1920x1080.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Red Dead Redemption 2",
+            "description": "Follow Arthur Morgan's epic journey through the Wild West in this critically acclaimed open-world adventure.",
+            "image": "https://images.hdqwalls.com/download/red-dead-online-bounty-hunter-2b-1920x1080.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Devil May Cry 5",
+            "description": "The legendary demon hunter returns in this action-packed sequel featuring stylish combat and breathtaking visuals.",
+            "image": "https://images.hdqwalls.com/download/2018-devil-may-cry-5-4k-o9-1920x1080.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Mortal Combat X",
+            "description": "Drop into the intense battle royale experience with up to 150 players in this free-to-play combat game.",
+            "image": "https://images.hdqwalls.com/download/sub-zero-icebound-warrior-rp-1920x1080.jpg"
+        }
+    ]
+}
