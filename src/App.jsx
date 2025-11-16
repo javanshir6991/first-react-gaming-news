@@ -1,13 +1,12 @@
-import React from 'react'
-import Header from './components/layout/header'
-import Layout from './components/layout/layout'
-import News from './components/sections/news'
+import { RouterProvider } from 'react-router'
+import { router } from './router'
+
 
 const App = () => {
   return (
-    <Layout>
-      <News />
-    </Layout>
+    <div>
+      <RouterProvider router={router} />
+    </div>
   )
 }
 

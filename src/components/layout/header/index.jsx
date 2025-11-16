@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import { LayoutDashboard } from "lucide-react";
 import { Phone } from "lucide-react";
 import { Search } from "lucide-react";
@@ -83,8 +84,8 @@ const Header = () => {
                 <div className="navbar ml-10">
                     <nav>
                         <ul className="flex items-center gap-10">
-                            <li><a href="#" className="text-[#077d07] hover:text-green-600 duration-300 font-semibold text-xl">Home</a></li>
-                            <li><a href="#" className="text-[#077d07] hover:text-green-600 duration-300 font-semibold text-xl">About</a></li>
+                            <li><NavLink to="/" className="text-[#077d07] hover:text-green-600 duration-300 font-semibold text-xl">Home</NavLink></li>
+                            <li><NavLink to="/about" className="text-[#077d07] hover:text-green-600 duration-300 font-semibold text-xl">About</NavLink></li>
                             <li><a href="#" className="text-[#077d07] hover:text-green-600 duration-300 font-semibold text-xl">Services</a></li>
                             <li><a href="#" className="text-[#077d07] hover:text-green-600 duration-300 font-semibold text-xl">Contact</a></li>
                         </ul>

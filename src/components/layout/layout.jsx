@@ -1,15 +1,15 @@
-import React from 'react'
 import Header from './header'
 import Footer from './footer'
+import { Outlet } from 'react-router'
 
-const layout = ({ children }) => {
+const Layout = () => {
     return (
-        <div>
+        <>
             <Header />
-            <main>{children}</main>
+            <Outlet />
             <Footer />
-        </div>
+        </>
     )
 }
 
-export default layout
+export default Layout
