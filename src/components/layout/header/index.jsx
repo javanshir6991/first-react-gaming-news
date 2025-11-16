@@ -86,7 +86,7 @@ const Header = () => {
                         <ul className="flex items-center gap-10">
                             <li><NavLink to="/" className="text-[#077d07] hover:text-green-600 duration-300 font-semibold text-xl">Home</NavLink></li>
                             <li><NavLink to="/about" className="text-[#077d07] hover:text-green-600 duration-300 font-semibold text-xl">About</NavLink></li>
-                            <li><a href="#" className="text-[#077d07] hover:text-green-600 duration-300 font-semibold text-xl">Services</a></li>
+                            <li><NavLink to="/services" className="text-[#077d07] hover:text-green-600 duration-300 font-semibold text-xl">Services</NavLink></li>
                             <li><a href="#" className="text-[#077d07] hover:text-green-600 duration-300 font-semibold text-xl">Contact</a></li>
                         </ul>
                     </nav>
